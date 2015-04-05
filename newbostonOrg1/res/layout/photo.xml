@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:contentDescription="@string/return_image"
+        android:id="@+id/ivCamera"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/ic_launcher" 
+        android:layout_gravity="center"/>
+
+    <ImageButton
+        
+        android:contentDescription="@string/image_button"
+        android:id="@+id/ibCamera"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hula_penguin" 
+        android:layout_gravity="center"/>
+
+    <Button
+        android:contentDescription="@string/button"
+        android:id="@+id/bSetWallpaper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button" />
+
+</LinearLayout>

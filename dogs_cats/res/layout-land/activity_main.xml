@@ -1,0 +1,309 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Pink"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/title_land"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="Verdana"
+            android:gravity="center"
+            android:text="@string/cats"
+            android:textColor="@color/Black"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:typeface="sans" />
+
+        <ImageView
+            android:id="@+id/scottishfold"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/title_land"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/scottishfold"
+            android:paddingTop="20dp"
+            android:src="@drawable/scottishfold" />
+
+        <TextView
+            android:id="@+id/scottishfold_heading"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/scottishfold"
+            android:layout_below="@+id/title_land"
+            android:gravity="center"
+            android:text="@string/scottishfold"
+            android:textColor="@color/Crimson" />
+
+        <TextView
+            android:id="@+id/scottishfold_text"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:layout_below="@+id/scottishfold_heading"
+            android:layout_toRightOf="@+id/scottishfold"
+            android:gravity="center_horizontal"
+            android:text="@string/scottishfold_desc"
+            android:textColor="@color/Teal" />
+
+        <TextView
+            android:id="@+id/bobtail_heading"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignRight="@+id/turkishangora"
+            android:layout_below="@+id/scottishfold"
+            android:gravity="center"
+            android:text="@string/bobtail"
+            android:textColor="@color/Crimson" />
+
+        <TextView
+            android:id="@+id/bobtail_text"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:layout_below="@+id/bobtail_heading"
+            android:layout_toLeftOf="@+id/bobtail"
+            android:gravity="center_horizontal"
+            android:text="@string/bobtail_desc"
+            android:textColor="@color/Teal" />
+
+        <ImageView
+            android:id="@+id/curl"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/bobtail"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/curl"
+            android:paddingTop="20dp"
+            android:src="@drawable/curl" />
+
+        <TextView
+            android:id="@+id/curl_heading"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/curl"
+            android:layout_below="@+id/bobtail_text"
+            android:gravity="center"
+            android:text="@string/curl"
+            android:textColor="@color/Crimson" />
+
+        <TextView
+            android:id="@+id/curl_text"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:layout_below="@+id/curl_heading"
+            android:layout_toRightOf="@+id/curl"
+            android:gravity="center_horizontal"
+            android:text="@string/curl_desc"
+            android:textColor="@color/Teal" />
+
+        <ImageView
+            android:id="@+id/bobtail"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/scottishfold"
+            android:layout_margin="5dp"
+            android:layout_marginRight="40dp"
+            android:contentDescription="@string/bobtail"
+            android:paddingTop="20dp"
+            android:src="@drawable/bobtail" />
+
+        <TextView
+            android:id="@+id/turkishangora_heading"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignRight="@+id/turkishangora"
+            android:layout_below="@+id/curl"
+            android:gravity="center"
+            android:text="@string/turkishangora"
+            android:textColor="@color/Crimson" />
+
+        <TextView
+            android:id="@+id/turkishangora_text"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:layout_below="@+id/turkishangora_heading"
+            android:layout_toLeftOf="@+id/turkishangora"
+            android:gravity="center_horizontal"
+            android:text="@string/turkishangora_desc"
+            android:textColor="@color/Teal" />
+
+        <ImageView
+            android:id="@+id/aegean"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/turkishangora"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/aegean"
+            android:paddingTop="20dp"
+            android:src="@drawable/aegean" />
+
+        <TextView
+            android:id="@+id/aegean_heading"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/aegean"
+            android:layout_below="@+id/turkishangora_text"
+            android:gravity="center"
+            android:text="@string/aegean"
+            android:textColor="@color/Crimson" />
+
+        <TextView
+            android:id="@+id/aegean_text"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:layout_below="@+id/aegean_heading"
+            android:layout_toRightOf="@+id/aegean"
+            android:gravity="center_horizontal"
+            android:text="@string/aegean_desc"
+            android:textColor="@color/Teal" />
+
+        <ImageView
+            android:id="@+id/turkishangora"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/curl"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/bobtail_text"
+            android:contentDescription="@string/turkishangora"
+            android:paddingTop="20dp"
+            android:src="@drawable/turkishangora" />
+
+        <ImageView
+            android:id="@+id/balinese"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/aegean"
+            android:layout_margin="5dp"
+            android:layout_marginRight="40dp"
+            android:contentDescription="@string/balinese"
+            android:paddingTop="20dp"
+            android:src="@drawable/balinese" />
+
+        <TextView
+            android:id="@+id/balinese_heading"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignRight="@+id/balinese"
+            android:layout_below="@+id/aegean"
+            android:gravity="center"
+            android:text="@string/balinese"
+            android:textColor="@color/Crimson" />
+
+        <TextView
+            android:id="@+id/balinese_text"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:layout_below="@+id/balinese_heading"
+            android:layout_toLeftOf="@+id/balinese"
+            android:gravity="center_horizontal"
+            android:text="@string/balinese_desc"
+            android:textColor="@color/Teal" />
+
+        <ImageView
+            android:id="@+id/americanpolydactyl"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/balinese"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/americanpolydactyl"
+            android:paddingTop="20dp"
+            android:src="@drawable/americanpolydactyl" />
+
+        <TextView
+            android:id="@+id/americanpolydactyl_heading"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/americanpolydactyl"
+            android:layout_below="@+id/balinese_text"
+            android:gravity="center"
+            android:text="@string/americanpolydactyl"
+            android:textColor="@color/Crimson" />
+
+        <TextView
+            android:id="@+id/americanpolydactyl_text"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:layout_below="@+id/americanpolydactyl_heading"
+            android:layout_toRightOf="@+id/americanpolydactyl"
+            android:gravity="center_horizontal"
+            android:text="@string/americanpolydactyl_desc"
+            android:textColor="@color/Teal" />
+
+        <!-- additions -->
+
+        <ImageView
+            android:id="@+id/cyprus"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/americanpolydactyl"
+            android:layout_margin="5dp"
+            android:layout_marginRight="40dp"
+            android:contentDescription="@string/cyprus"
+            android:paddingTop="20dp"
+            android:src="@drawable/cyprus" />
+
+        <TextView
+            android:id="@+id/cyprus_heading"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignRight="@+id/cyprus"
+            android:layout_below="@+id/americanpolydactyl"
+            android:gravity="center"
+            android:text="@string/cyprus"
+            android:textColor="@color/Crimson" />
+
+        <TextView
+            android:id="@+id/cyprus_text"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:layout_below="@+id/cyprus_heading"
+            android:layout_toLeftOf="@+id/cyprus"
+            android:gravity="center_horizontal"
+            android:text="@string/cyprus_desc"
+            android:textColor="@color/Teal" />
+
+        <ImageView
+            android:id="@+id/asiansemilonghair"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/cyprus"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/asiansemilonghair"
+            android:paddingTop="20dp"
+            android:src="@drawable/asiansemilonghair" />
+
+        <TextView
+            android:id="@+id/asiansemilonghair_heading"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/asiansemilonghair"
+            android:layout_below="@+id/cyprus_text"
+            android:gravity="center"
+            android:text="@string/asiansemilonghair"
+            android:textColor="@color/Crimson" />
+
+        <TextView
+            android:id="@+id/asiansemilonghair_text"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:layout_below="@+id/asiansemilonghair_heading"
+            android:layout_toRightOf="@+id/asiansemilonghair"
+            android:gravity="center_horizontal"
+            android:text="@string/asiansemilonghair_desc"
+            android:textColor="@color/Teal" />
+    </RelativeLayout>
+
+</ScrollView>

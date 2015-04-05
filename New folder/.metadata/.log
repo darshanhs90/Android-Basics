@@ -1,0 +1,85 @@
+!SESSION 2014-07-06 23:01:25.264 -----------------------------------------------
+eclipse.buildId=v22.2.1-833290
+java.version=1.7.0_17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -data C:\Users\darshan\workspace\New folder -os win32 -ws win32 -arch x86_64 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2014-07-06 23:02:32.231
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2014-07-06 23:02:32.231
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-07-06 23:02:32.231
+!MESSAGE Software being installed: Android DDMS 23.0.2.1259578 (com.android.ide.eclipse.ddms.feature.feature.group 23.0.2.1259578)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-07-06 23:02:32.231
+!MESSAGE Software currently installed: Android Developer Tools 22.2.1.v201309180102-833290 (com.android.ide.eclipse.adt.package.product 22.2.1.v201309180102-833290)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-07-06 23:02:32.231
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-06 23:02:32.231
+!MESSAGE Dalvik Debug Monitor Service 23.0.2.1259578 (com.android.ide.eclipse.ddms 23.0.2.1259578)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-06 23:02:32.231
+!MESSAGE Dalvik Debug Monitor Service 22.2.1.v201309180102-833290 (com.android.ide.eclipse.ddms 22.2.1.v201309180102-833290)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-07-06 23:02:32.231
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-06 23:02:32.231
+!MESSAGE From: ADT Package 22.2.1.v201309180102-833290 (com.android.ide.eclipse.adt.package.feature.group 22.2.1.v201309180102-833290)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-06 23:02:32.231
+!MESSAGE To: com.android.ide.eclipse.ddms.feature.group 22.2.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-07-06 23:02:32.231
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-06 23:02:32.231
+!MESSAGE From: Android Developer Tools 22.2.1.v201309180102-833290 (com.android.ide.eclipse.adt.package.product 22.2.1.v201309180102-833290)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-06 23:02:32.232
+!MESSAGE To: com.android.ide.eclipse.adt.package.feature.group [22.2.1.v201309180102-833290]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-07-06 23:02:32.232
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-06 23:02:32.232
+!MESSAGE From: Android DDMS 23.0.2.1259578 (com.android.ide.eclipse.ddms.feature.feature.group 23.0.2.1259578)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-06 23:02:32.232
+!MESSAGE To: com.android.ide.eclipse.ddms [23.0.2.1259578]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-07-06 23:02:32.232
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-06 23:02:32.232
+!MESSAGE From: Android DDMS 22.2.1.v201309180102-833290 (com.android.ide.eclipse.ddms.feature.group 22.2.1.v201309180102-833290)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-06 23:02:32.232
+!MESSAGE To: com.android.ide.eclipse.ddms [22.2.1.v201309180102-833290]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2014-07-06 23:02:32.242
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2014-07-06 23:02:32.242
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-07-06 23:02:32.242
+!MESSAGE Software being installed: Android DDMS 23.0.2.1259578 (com.android.ide.eclipse.ddms.feature.feature.group 23.0.2.1259578)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-07-06 23:02:32.242
+!MESSAGE Software currently installed: Android Developer Tools 22.2.1.v201309180102-833290 (com.android.ide.eclipse.adt.package.product 22.2.1.v201309180102-833290)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-07-06 23:02:32.243
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-06 23:02:32.243
+!MESSAGE Dalvik Debug Monitor Service 23.0.2.1259578 (com.android.ide.eclipse.ddms 23.0.2.1259578)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-06 23:02:32.243
+!MESSAGE Dalvik Debug Monitor Service 22.2.1.v201309180102-833290 (com.android.ide.eclipse.ddms 22.2.1.v201309180102-833290)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-07-06 23:02:32.243
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-06 23:02:32.243
+!MESSAGE From: ADT Package 22.2.1.v201309180102-833290 (com.android.ide.eclipse.adt.package.feature.group 22.2.1.v201309180102-833290)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-06 23:02:32.243
+!MESSAGE To: com.android.ide.eclipse.ddms.feature.group 22.2.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-07-06 23:02:32.243
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-06 23:02:32.243
+!MESSAGE From: Android Developer Tools 22.2.1.v201309180102-833290 (com.android.ide.eclipse.adt.package.product 22.2.1.v201309180102-833290)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-06 23:02:32.243
+!MESSAGE To: com.android.ide.eclipse.adt.package.feature.group [22.2.1.v201309180102-833290]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-07-06 23:02:32.243
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-06 23:02:32.243
+!MESSAGE From: Android DDMS 23.0.2.1259578 (com.android.ide.eclipse.ddms.feature.feature.group 23.0.2.1259578)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-06 23:02:32.243
+!MESSAGE To: com.android.ide.eclipse.ddms [23.0.2.1259578]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-07-06 23:02:32.243
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-06 23:02:32.243
+!MESSAGE From: Android DDMS 22.2.1.v201309180102-833290 (com.android.ide.eclipse.ddms.feature.group 22.2.1.v201309180102-833290)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-06 23:02:32.243
+!MESSAGE To: com.android.ide.eclipse.ddms [22.2.1.v201309180102-833290]

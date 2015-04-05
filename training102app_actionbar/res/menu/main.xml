@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+<item android:id="@+id/action_search"
+    android:title="@string/search"
+    android:icon="@drawable/world"
+    android:showAsAction="ifRoom"
+        />
+<item android:id="@+id/action_search1"
+    android:title="@string/search"
+    android:icon="@drawable/watch"
+    android:showAsAction="ifRoom"
+        />
+<item android:id="@+id/action_search2"
+    android:title="@string/search"
+    android:icon="@drawable/droid"
+    android:showAsAction="ifRoom"
+        />
+</menu>

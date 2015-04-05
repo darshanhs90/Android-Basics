@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">newbostonOrg1</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="total">Your total is 0</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="type_a_command">Type a Command</string>
+    <string name="validate_command">Command Button</string>
+    <string name="invalid">Invalid</string>
+    <string name="togglebutton">Toggle Button</string>
+    <string name="email_addresses">Email Addresses</string>
+    <string name="intro">Intro</string>
+    <string name="person_s_name">Person\'s Name</string>
+    <string name="send_email">Send Email</string>
+    <string name="button">Set Wallpaper</string>
+    <string name="image_button">image button</string>
+    <string name="return_image">return image</string>
+    <string name="startactivity">StartActivity</string>
+    <string name="startactivityforresult">StartActivityForResult</string>
+    <string name="textview">TextView</string>
+    <string name="the_question_is_">The Question is ...?</string>
+    <string name="answer1">Answer1</string>
+    <string name="answer2">Answer2</string>
+    <string name="answer3">Answer3</string>
+    <string name="about_us">About Us</string>
+    <string name="preferences">Preferences</string>
+    <string name="exit">Exit</string>
+
+</resources>

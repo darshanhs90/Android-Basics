@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dijkstra_Turing</string>
+    <string name="action_settings">Settings</string>
+    <string name="edsger_dijkstra">Edsger Dijkstra</string>
+    <string name="alan_turing">Alan Turing</string>
+   
+    
+    <string name="description_turing">Alan Turing  was a British mathematician, logician, cryptanalyst and computer scientist. He was highly influential in the development of computer science, giving 
+
+a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a 
+
+general purpose computer.Turing is widely considered to be the father of theoretical computer science and artificial 
+
+intelligence.During the World War , Turing worked for the Government Code and Cypher School  at Bletchley Park, Britains 
+
+codebreaking centre.For a time he led Hut 8, the section responsible for German naval cryptanalysis. He devised a number 
+
+of techniques for breaking German ciphers, including improvements to the pre-war Polish bombe method, an electromechanical 
+
+machine that could find settings for the Enigma machine..After the war, he worked at the National Physical Laboratory, 
+
+where he designed the ACE, among the first designs for a stored-program computer. In 1948 Turing joined Max Newmans 
+
+Computing Laboratory at Manchester University, where he assisted development of the Manchester computers and became 
+
+interested in mathematical biology. He wrote a paper on the chemical basis of morphogenesis, and predicted oscillating 
+
+chemical reactions such as the Belousov Zhabotinsky reaction, first observed in the 1960s.Turings natural inclination 
+
+toward mathematics and science did not earn him respect from some of the teachers at Sherborne, whose definition of 
+
+education placed more emphasis on the classics. His headmaster wrote to his parents: "I hope he will not fall between two 
+
+stools. If he is to stay at public school, he must aim at becoming educated. If he is to be solely a Scientific 
+
+Specialist, he is wasting his time at a public school". Despite this, Turing continued to show remarkable ability in the 
+
+studies he loved, solving advanced problems in 1927 without having studied even elementary calculus. In 1928, aged 16, 
+
+Turing encountered Albert Einsteins work; not only did he grasp it, but he extrapolated Einsteins questioning of 
+
+Newtons laws of motion from a text in which this was never made explicit.At Sherborne, Turing formed an important 
+
+friendship with fellow pupil Christopher Morcom, which provided inspiration in Turings future endeavours. However, the 
+
+friendship was cut short by Morcoms death in February 1930 from complications of bovine tuberculosis contracted after 
+
+drinking infected cows milk some years previously.This event shattered Turings religious faith. He became an atheist and 
+
+adopted the conviction that all phenomena, including the workings of the human brain, must be materialistic,but he still 
+
+believed in the survival of the spirit after death </string>
+   
+    
+    <string name="dijkstra_desc">Edsger Wybe Dijkstra was a Dutch computer scientist.He received the 1972 Turing Award for fundamental contributions to developing programming languages, and was the 
+
+Schlumberger Centennial Chair of Computer Sciences at The University of Texas at Austin from 1984 until 2000.
+Shortly before his death in 2002, he received the ACM PODC Influential Paper Award in distributed computing for his work 
+
+on self-stabilization of program computation. This annual award was renamed the Dijkstra Prize the following year, in his 
+
+honor Edsger Dijkstra was born in Rotterdam. His father was a chemist who was president of the Dutch Chemical Society; he 
+
+taught chemistry at a secondary school and was later its superintendent. His mother was a housewife. Dijkstra studied 
+
+theoretical physics at Leiden University, but quickly realized he was more interested in computer science. Originally 
+
+employed by the Mathematisch Centrum in Amsterdam, he held a professorship at the Eindhoven University of Technology, 
+
+worked as a research fellow for Burroughs Corporation in the early 1980s, and later held the Schlumberger Centennial Chair 
+
+in Computer Sciences at the University of Texas at Austin, in the United States. He retired in 2000.
+Among his contributions to computer science are a shortest path algorithm, known as Dijkstras algorithm; the Shunting 
+
+yard algorithm; the THE multiprogramming system, an important early example of structuring a system as a set of layers; 
+
+the Bankers algorithm; and the semaphore construct for coordinating multiple processors and programs. Another concept due 
+
+to Dijkstra in the field of distributed computing is that of self-stabilization – an alternative way to ensure the 
+
+reliability of the system. Dijkstras algorithm is used in SPF, Shortest Path First, which is used in the routing 
+
+protocols OSPF and IS-IS.
+While he had programmed extensively in machine code in the 1950s, he came to the conclusion that in high-level languages 
+
+frequent use of the GOTO statement was usually symptomatic of poor structure. In 1968 he wrote a private paper "A Case 
+
+against the GO TO Statement",which was then published as a letter in CACM.Editor Niklaus Wirth gave this letter the 
+
+heading "Go To Statement Considered Harmful", which introduced the phrase "considered harmful" into computing. Dijkstras 
+
+thesis was that departures from linear control flow were clearer if allowed only in disciplined higher-level structures 
+
+such as the if-then-else statement and the while loop. This methodology was developed into structured programming, the 
+
+title of his 1972 book, coauthored with C.A.R. Hoare and Ole-Johan Dahl. Dijkstra also strongly opposed the teaching of 
+
+BASIC.Dijkstra was known to be a fan of ALGOL 60, and worked on the team that implemented the first compiler for that 
+
+language. Dijkstra and Jaap Zonneveld, who collaborated on the compiler, agreed not to shave until the project was 
+
+completed. It was one of the first compilers supporting recursion.Dijkstra wrote two important papers in 1968, devoted to 
+
+the structure of a multiprogramming operating system called THE, and to Cooperating Sequential Processes.From the 1970s, 
+
+Dijkstras chief interest was formal verification. The prevailing opinion at the time was that one should first write a 
+
+program and then provide a mathematical proof of correctness. Dijkstra objected noting that the resulting proofs are long 
+
+and cumbersome, and that the proof gives no insight on how the program was developed. An alternative method is program 
+
+derivation, to "develop proof and program hand in hand". One starts with a mathematical specification of what a program is 
+
+supposed to do and applies mathematical transformations to the specification until it is turned into a program that can be 
+
+executed. The resulting program is then known to be correct by construction. Much of Dijkstras later work concerns ways 
+
+to streamline mathematical argument. In a 2001 interview,he stated a desire for "elegance", whereby the correct approach 
+
+would be to process thoughts mentally, rather than attempt to render them until they are complete. The analogy he made was 
+
+to contrast the compositional approaches of Mozart and Beethoven.Dijkstra was one of the early pioneers in the field of 
+
+distributed computing. In particular, his paper "Self-stabilizing Systems in Spite of Distributed Control" started the 
+
+sub-field of self-stabilization.
+Many of his opinions on computer science and programming have become widespread. For example, he coined the programming 
+
+phrase "two or more, use a for"alluding to the rule of thumb that when you find yourself processing more than one instance 
+
+of a data structure, it is time to consider encapsulating that logic inside a loop. He was the first to make the claim 
+
+that programming is so inherently complex that, in order to manage it successfully, programmers need to harness every 
+
+trick and abstraction possible. When expressing the abstract nature of computer science, he wrote
+The job [of operating or using a computer] was actually beyond the electronic technology of the day, and, as a result, the 
+
+question of how to get and keep the physical equipment more or less in working condition became in the early days the 
+
+all-overriding concern. As a result, the topic became —primarily in the USA— prematurely known as "computer science" —
+
+which, actually is like referring to surgery as "knife science"— and it was firmly implanted in peoples minds that 
+
+computing science is about machines and their peripheral equipment.He died in Nuenen on 6 August 2002 after a long 
+
+struggle with cancer.[10] The following year, the ACM (Association for Computing Machinery) PODC Influential Paper Award 
+
+in distributed computing was renamed the Dijkstra Prize in his honor</string>
+</resources>

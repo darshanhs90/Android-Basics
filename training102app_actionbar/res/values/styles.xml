@@ -1,0 +1,16 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+ 
+    <style name="AppBaseTheme" parent="android:Theme.Holo">
+        <item name="android:actionBarStyle">@style/AppBaseTheme</item>
+        <item name="android:windowActionBarOverlay">true</item> </style>
+
+    <!-- Application theme. -->
+    <!-- <style name="actionbar" parent="android:style/Holo.ButtonBar">
+         <item name="android:background">@drawable/bluey</item>
+        </style> -->
+        <!-- <style name="actionbar" parent="@android:style/Widget.ActionBar.TabView">
+            <item name="android:background">@drawable/images</item>
+             </style> -->
+
+</resources>

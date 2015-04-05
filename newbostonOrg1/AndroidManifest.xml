@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.newbostonorg1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.google.adds.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent" >
+            <intent-filter>
+                <action android:name="com.example.newbostonorg1.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.MenuAct"
+            android:label="@string/title_activity_menu"
+            android:theme="@android:style/Theme.Light" >
+            <intent-filter>
+                <action android:name="com.example.newbostonorg1.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.TextPlay"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.Tabs"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.Flipper"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.Email"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.HTTPExample"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.SQLView"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.SQLLiteExample"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.Accelerate"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.TextVoice"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.GLExample"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.Camera"
+            android:label="@string/title_activity_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.Data"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.ExternalData"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.SimpleBrowser"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.OpenedClass"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.SharedPrefs"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.GFX"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.WeatherXMLParsing"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.Slider"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.Voice"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.GFXSurface"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.StatusBar"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.SeekBarVolume"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.SoundStuff"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.AboutUs"
+            android:label="@string/title_activity_menu"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="com.example.newbostonorg1.aboutus" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.newbostonorg1.Prefs"
+            android:label="@string/title_activity_menu"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="com.example.newbostonorg1.prefs" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="com.example.newbostonorg1.PointlessWidget"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_stuff" />
+        </receiver>
+
+        <activity
+            android:name="com.example.newbostonorg1.WidgetConfig"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

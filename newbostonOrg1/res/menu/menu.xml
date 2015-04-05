@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/aboutus"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/about_us"
+        android:numericShortcut="1"
+        android:alphabeticShortcut="a"
+        />
+    <item
+        android:id="@+id/preferences"
+        android:title="@string/preferences"
+        />
+    <item
+        android:id="@+id/exit"
+        android:title="@string/exit"
+        />      
+
+</menu>
